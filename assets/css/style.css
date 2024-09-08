@@ -1,0 +1,148 @@
+body {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.542);
+  color: #344955;
+}
+.poster_img.female {
+  display: none;
+}
+.main_cnt {
+  height: 100vh;
+  overflow: auto;
+}
+.sr-only {
+  display: none;
+}
+#loader_container {
+  display: none;
+}
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.597);
+  z-index: 100000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_cols {
+  padding: 10px;
+}
+.left_cols > div {
+  border: 1px solid rgb(228, 228, 228);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  height: 100%;
+  padding: 15px;
+}
+.detail_heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.main_body {
+  padding: 10px;
+}
+.header {
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.poster_cnt {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgb(228, 228, 228);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.poster_prev {
+  position: relative;
+}
+.poster_img {
+  width: 100%;
+  max-width: 800px;
+}
+#upload-demo {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.btn_cnt {
+  gap: 15px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+#profile_img {
+  position: absolute;
+  width: 32.8%;
+  height: 32.9%;
+  right: 9.3%;
+  top: 43.5%;
+  z-index: 10000;
+  border-radius: 50%;
+  display: none;
+}
+#user_name_prev {
+  position: absolute;
+  width: 43.5%;
+  height: 4.3%;
+  right: 3.9%;
+  top: 82.1%;
+  z-index: 1000;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  font-weight: 500;
+  color: red;
+}
+.poster_img {
+  position: relative;
+  z-index: 10;
+}
+.download_img {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .left_cols > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .download_img {
+    margin-bottom: 10px;
+  }
+  .main_body {
+    height: 100vh;
+    overflow: auto;
+  }
+}
+footer {
+  background-color: #03025e;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: aliceblue;
+}
+.btn-primary {
+  background-color: #03025e;
+  border-color: #03025e;
+}
